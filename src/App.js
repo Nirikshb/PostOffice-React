@@ -42,6 +42,8 @@ const App = () => {
         const [pincodeDetail] = response.data;
         console.log(response.data);//logging to check for data
         console.log(response.data[0].Message);
+        const [pincodeMessage] = response.data[0].Message;
+        console.log(pincodeMessage);
         //response.data is set inside array pincodeDetail
         if (pincodeDetail.Status === "Success") {
           setPincodeDetails(pincodeDetail.PostOffice);

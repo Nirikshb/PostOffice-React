@@ -7,6 +7,7 @@ const PincodeDetails = ({ details }) => {
    <div className="biggie">
     <div>
         <h2>Pincode:{details[0].Pincode}</h2>
+        {/* <div>{details[0].message}</div> */}
         </div>  
      <div className="pincode-details">
       {/* mapping through api using detail and index as my props */}
