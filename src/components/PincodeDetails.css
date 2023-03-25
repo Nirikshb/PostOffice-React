@@ -1,0 +1,24 @@
+.pincode-details {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 20px;  
+  }
+  
+  h2{
+    margin-top: 2%;
+  }
+  
+  .post-office {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .branch,
+  .delivery,
+  .district,
+  .division {
+    margin-top: 10px;
+  }
+  
