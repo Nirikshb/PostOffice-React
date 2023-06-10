@@ -1,6 +1,9 @@
+Click to check it out - https://post-office-react.vercel.app/
+
 Task
 Create a form with an input field where the user can enter a 6-digit Indian Postal Code. When the user submits the form, fetch the corresponding data from the API and display it on the page.
 You need to create a Pincode Lookup app that uses the Indian Postal Pincode API to retrieve the details of a pincode.
+
 The app should have an input field where the user can enter a pincode. There should also be a "Lookup" button that the user can click to fetch the details of the pincode.
 When the "Lookup" button is clicked, the app should make a GET request to the API to retrieve the details of the pincode. The API endpoint to use is
 https://api.postalpincode.in/pincode/<PINCODE>, where PINCODE is the pincode entered by the user.
